@@ -3,9 +3,10 @@
   "compilerOptions": {
     "outDir": "build", //컴파일된 js 파일이 생성될 디렉토리
     "target": "ES6",
-    "lib": ["ES6", "DOM"],
+    "lib": ["ES6"],
     "strict": true,
-    "allowJs": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
